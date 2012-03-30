@@ -1,0 +1,13 @@
+:: SQL Para criacao da tabela cliente ::
+
+CREATE  TABLE cliente (
+
+  id INT NOT NULL AUTO_INCREMENT ,
+  nome VARCHAR(255) NOT NULL ,
+  sobrenome VARCHAR(255) NOT NULL ,
+  cpf VARCHAR(11) NOT NULL ,
+  salario DOUBLE(9,2) NOT NULL ,
+  situacao VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id`)
+   
+ );
