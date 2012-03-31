@@ -11,3 +11,5 @@ CREATE  TABLE cliente (
   PRIMARY KEY (`id`)
    
  );
+ 
+ Teste no meuu notebook
